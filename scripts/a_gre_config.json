@@ -1,0 +1,201 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-1_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "1",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-1_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "1",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-2_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "2",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-2_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "2",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-3_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "3",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelAx160um_echo-3_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "3",
+        "CoilString": "1"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-1_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "1",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-1_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "1",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-2_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "2",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-2_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "2",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-3_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "3",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelBx160um_echo-3_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "3",
+        "CoilString": "2"
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-1_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "1",
+        "CoilString": ""
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-1_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "1",
+        "CoilString": ""
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-2_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "2",
+        "CoilString": ""
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-2_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "2",
+        "CoilString": ""
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-3_part-mag",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "M", "ND"],
+        "EchoNumber": "3",
+        "CoilString": ""
+      }
+    },
+    {
+      "datatype": "anat",
+      "suffix": "FLASH",
+      "custom_entities": "acq-channelCOMBx160um_echo-3_part-phase",
+      "criteria": {
+        "SeriesDescription": "a_gre_exvivo_160um_TR80",
+        "ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
+        "EchoNumber": "3",
+        "CoilString": ""
+      }
+    }
+  ]}
