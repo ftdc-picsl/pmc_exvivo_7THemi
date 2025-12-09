@@ -40,4 +40,4 @@ ${scriptsdir}/wrap_dcm2bids_agre.sh $subjlist
 # Have to manually figure out orientation and we haven't figured out reslice yet. 
 # Typically orientation code is SRP for left hemispheres and ILP for right hemispheres, but I prefer to check each one visually.
 # Once everything else is run, we can 
-# /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_relice_modalities.sh $subj $sess $orientation for each subject/session.
+# /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_modalities.sh $subj $sess $orientation for each subject/session.

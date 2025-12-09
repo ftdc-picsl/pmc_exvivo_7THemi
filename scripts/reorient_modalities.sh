@@ -10,10 +10,10 @@ T2w_ori=$3
 # Applies this reorient and reslice to the CISS image. 
 
 # T2w:
-/project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_relice_T2w.sh $subj $sess $T2w_ori
+/project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_T2w.sh $subj $sess $T2w_ori
 
 # FLASH:
 /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_FLASH.sh $subj $sess
 
 # CISS:
-/project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_reslice_CISS.sh $subj $sess
+/project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_CISS.sh $subj $sess
