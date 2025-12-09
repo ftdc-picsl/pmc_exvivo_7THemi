@@ -31,6 +31,6 @@ https://rmmr-group.github.io/exvivo_hemi.html
 2) BIDS curate all modalities except the new FLASH scans (a_gre) on Flywheel using fw-heudiconv
 3) Export the BIDS curated data from Flywheel to /project/ftdc_volumetric/pmc_exvivo/bids/sub-INDDID/ses-sessionlabel/
 4) Convert a_gre FLASH dicoms to NIFTI and curate into BIDS format. Also c3d change header on FLASH image so that it matches that of the T2w image (submitted to cluster).
-5) Run automated reorientation and ACPC reslicing of T2w image (submitted to cluster).
+5) Run automated reorientation ~~and ACPC reslicing of T2w image~~ (submitted to cluster).
 6) Get reoriented FLASH image (second echo of last run, channelCOMB dir-positive) and change header to match that of the reoriented/resliced T2w image (submitted to cluster) 
-7) Reorient and reslice CISS image to match T2w (submitted to cluster).
+7) Reorient ~~and reslice~~ CISS image to match T2w (submitted to cluster).
