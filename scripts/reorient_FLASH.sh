@@ -17,8 +17,12 @@ channel=COMB
 echo=2
 direction=positive
 for part in mag phase; do
-    flash_orig=${flash_input_dir}/sub-${subj}_ses-${sess}_acq-channel${channel}x160um_run-${run}_echo-${echo}_part-${part}_FLASH.nii.gz
+    flash_orig=${flash_input_dir}/sub-${subj}_ses-${sess}_acq-channel${channel}x160um_dir-${direction}_run-${run}_echo-${echo}_part-${part}_FLASH.nii.gz
     flash_reorient=${bids_reorient}/sub-${subj}_ses-${sess}_acq-channel${channel}x160um_dir-${direction}_run-${run}_echo-${echo}_part-${part}_rec-reorient_FLASH.nii.gz
+    if [ ! -e ${flash_orig} ]; then
+        flash_orig=${flash_input_dir}/sub-${subj}_ses-${sess}_acq-channel${channel}x160um_dir-${direction}_echo-${echo}_part-${part}_FLASH.nii.gz
+        flash_reorient=${bids_reorient}/sub-${subj}_ses-${sess}_acq-channel${channel}x160um_dir-${direction}_echo-${echo}_part-${part}_rec-reorient_FLASH.nii.gz
+    fi
     python /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_secondary_PK.py \
         -primary_original ${t2w_orig} \
         -primary_reorient ${t2w_reorient} \

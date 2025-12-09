@@ -37,8 +37,7 @@ ${scriptsdir}/wrap_export_bids.sh $subjlist
 echo "Starting FLASH dicom to NIFTI conversion and BIDS curation..."
 ${scriptsdir}/wrap_dcm2bids_agre.sh $subjlist
 
-# 5) Run automated reorientation and ACPC reslicing of T2w image (submitted to cluster).
-# 6) Get reoriented FLASH image (second echo of last run, channelCOMB dir-positive) and change header to match that of the reoriented/resliced T2w image (submitted to cluster) 
-# 7) Reorient and reslice CISS image to match T2w (submitted to cluster).
-echo "Starting T2w reorientation and ACPC reslicing... and then applying to FLASH and CISS..."
-${scriptsdir}/wrap_reorient_reslice_modalities.sh $subjlist
+# Have to manually figure out orientation and we haven't figured out reslice yet. 
+# Typically orientation code is SRP for left hemispheres and ILP for right hemispheres, but I prefer to check each one visually.
+# Once everything else is run, we can 
+# /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/reorient_relice_modalities.sh $subj $sess $orientation for each subject/session.

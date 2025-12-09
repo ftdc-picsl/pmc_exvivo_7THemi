@@ -134,7 +134,7 @@ def rename_new_sessions(matchString, group = "cfn", projectLabel = "pmc_exvivo")
 			if existing_subject:
 				# print(f"Moving session {s.label} to existing subject {new_subject_label}.")
 				print(new_subject_label+","+new_session_label)
-				update_frame = pd.concat([update_frame, pd.DataFrame([new_subject_label, new_session_label])])
+				update_frame = pd.concat([update_frame, pd.DataFrame([[new_subject_label, new_session_label]])], axis=1)
 				s.update({'label': new_session_label})
 				s.update({'subject': existing_subject.id})
 			else:
@@ -149,9 +149,9 @@ matchStrings = ['label=~Research*', 'label=Hemi', 'label=MTL']
 update_frame=pd.DataFrame()
 for matchString in matchStrings:
 	update_frame=pd.concat([update_frame, rename_new_sessions(matchString)])
-
+print(update_frame)
 # saved the updates to a csv file with today's date and time:
-update_frame.to_csv('/project/ftdc_volumetric/pmc_exvivo/lists/weekly_input_{}.csv'.format(todayStr), index=False)
+update_frame.to_csv('/project/ftdc_volumetric/pmc_exvivo/lists/weekly_input_{}.csv'.format(todayStr), index=False, header=False)
 print("New preprocessing list saved to /project/ftdc_volumetric/pmc_exvivo/lists/weekly_input_{}.csv".format(todayStr))
 print("Run the following command to run entire ex vivo curation/preproc pipeline on this session:")
 print(" /project/ftdc_volumetric/pmc_exvivo/scripts/ex_vivo_preproc/scripts/run_preproc_pipeline.sh /project/ftdc_volumetric/pmc_exvivo/lists/weekly_input_{}.csv".format(todayStr))
